@@ -1,8 +1,27 @@
 import Navbar from "./components/navbar/navbar";
 import "./App.css";
-import { OwnImage } from "./utils/image";
+import { Grandizer, Khub, OwnImage } from "./utils/image";
 
 function App() {
+
+  const projectsArr = [
+    {
+      name: "GRANDIZER",
+      image: Grandizer,
+    },
+    {
+      name: "KHUB PORTAL ECOMMERCE",
+      image: Khub,
+    },
+    {
+      name: "Grandizer",
+      image: Grandizer,
+    },
+    {
+      name: "Grandizer",
+      image: Grandizer,
+    }
+  ]
   return (
     <>
       <Navbar />
@@ -101,7 +120,27 @@ function App() {
 
         </div>
       </div>
-
+      
+      {/* projects */}
+      <div style={{background:"gray" , width:"100%" , height:"1px"}}></div>
+      <div style={{background:"#000" , color:"#fff"}}>
+      <h1 className="text-center pt-4">RECENT PROJECTS</h1>
+      <div className="container-fluid">
+        <div className="row mt-3" style={{display:"flex" , justifyContent:"center"}}>
+          { projectsArr.map((item , i ) => 
+          (
+            <div className="col-lg-3 col-sm-10 project ms-4"  >
+              <div>
+              <img src={item.image} alt="" />
+              <h5 className="text-center mt-3">{item.name}</h5>
+              </div>
+            
+            </div>
+          )) }
+        </div>
+      </div>
+      </div>
+     
     </>
   );
 }
