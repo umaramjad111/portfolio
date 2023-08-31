@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navbar.css"
 import { Logo } from '../../utils/image'
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
             <a class="nav-link" href="/services">SERVICES</a>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/privacy_policY">PRIVACY POLICY</Link>
+            <Link class="nav-link" to="/privacy">PRIVACY POLICY</Link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">CONTACT</a>

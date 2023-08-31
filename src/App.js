@@ -13,7 +13,7 @@ function App() {
      <Router>
      <Navbar />
      <Route path="/" exact component={Home} />
-      <Route path="/privacy_policY" exact component={Privacypolicy} />
+      <Route path="/privacy" exact component={Privacypolicy} />
      </Router>
      
 
