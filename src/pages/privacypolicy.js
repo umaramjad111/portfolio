@@ -19,12 +19,11 @@ export default function Privacypolicy() {
         <p>I take data security seriously and implement reasonable measures to protect the information you provide. However, please be aware that no online platform can guarantee complete security, and you should take precautions when sharing personal information online.</p>
         <h4 className='mt-3'>Your Rights</h4>
         <p>As a visitor to my website, you have the right to access, update, or delete the personal information I hold about you. You can also choose to restrict or object to the processing of your data. If you have any concerns about how your data is being used, please feel free to contact me using the provided contact information.</p>
-        <h5>umar amjad</h5>
-        {/* <h4>CCPA Compliance</h4>
+        <h4>CCPA Compliance</h4>
         <p>We are also committed to complying with California Consumer Privacy Act (CCPA) when handling 
             personal data of California residents. Our website is designed to protect privacy of California
             residents and we collect, process, and store personal data in accordance with CCPA requirements.
-        </p> */}
+        </p>
         <h4 className='mt-3'>Policy Updates</h4>
         <p>I may update this privacy policy from time to time to reflect changes in my practices or to comply with legal requirements. The latest version of the privacy policy will be posted on this page, along with the date of the last update.</p>
     </div>
